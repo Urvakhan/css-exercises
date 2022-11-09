@@ -20,19 +20,24 @@ body,html {
 
 .content {
   background: #e3f4ff;
-  padding-top: 24;
-  padding-bottom: 24;
-  padding-left: 8;
-  padding-right: 8;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  /* padding: 24px 8px; */
 }
 
 .button-container {
+  text-align: center;
   background: #e3f4ff;
   padding: 8px;
+  margin: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
   align-self: center;
+  display:block;
+  margin: auto;
 }
